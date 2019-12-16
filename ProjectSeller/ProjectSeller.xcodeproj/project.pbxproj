@@ -13,6 +13,21 @@
 		522AC39023A726FE00F887BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522AC38E23A726FE00F887BB /* Main.storyboard */; };
 		522AC39223A726FF00F887BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522AC39123A726FF00F887BB /* Assets.xcassets */; };
 		522AC39523A726FF00F887BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522AC39323A726FF00F887BB /* LaunchScreen.storyboard */; };
+		522AC39D23A7277F00F887BB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AC39C23A7277F00F887BB /* API.swift */; };
+		522AC3A123A7278500F887BB /* Extension+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AC39E23A7278400F887BB /* Extension+JSON.swift */; };
+		522AC3A223A7278500F887BB /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AC39F23A7278400F887BB /* Extension+UIColor.swift */; };
+		522AC3A323A7278500F887BB /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AC3A023A7278400F887BB /* Extension+UIImage.swift */; };
+		522AC3A723A7278E00F887BB /* RMPZoomTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AC3A423A7278E00F887BB /* RMPZoomTransitionAnimator.swift */; };
+		522AC3A823A7278E00F887BB /* RMPZoomTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AC3A523A7278E00F887BB /* RMPZoomTransitionDelegate.swift */; };
+		522AC3A923A7278E00F887BB /* RMPZoomTransitionAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AC3A623A7278E00F887BB /* RMPZoomTransitionAnimating.swift */; };
+		522AC3AC23A7279400F887BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AC3AA23A7279400F887BB /* ViewController.swift */; };
+		522AC3AD23A7279400F887BB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AC3AB23A7279400F887BB /* DetailViewController.swift */; };
+		522AC3B423A7279C00F887BB /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AC3AE23A7279B00F887BB /* LoadingCell.swift */; };
+		522AC3B523A7279C00F887BB /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AC3AF23A7279B00F887BB /* ItemCell.swift */; };
+		522AC3B623A7279C00F887BB /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522AC3B023A7279B00F887BB /* ImageCell.swift */; };
+		522AC3B723A7279C00F887BB /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522AC3B123A7279B00F887BB /* LoadingCell.xib */; };
+		522AC3B823A7279C00F887BB /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522AC3B223A7279B00F887BB /* ImageCell.xib */; };
+		522AC3B923A7279C00F887BB /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522AC3B323A7279B00F887BB /* ItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,21 @@
 		522AC39123A726FF00F887BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522AC39423A726FF00F887BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522AC39623A726FF00F887BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522AC39C23A7277F00F887BB /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		522AC39E23A7278400F887BB /* Extension+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+JSON.swift"; sourceTree = "<group>"; };
+		522AC39F23A7278400F887BB /* Extension+UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		522AC3A023A7278400F887BB /* Extension+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
+		522AC3A423A7278E00F887BB /* RMPZoomTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMPZoomTransitionAnimator.swift; sourceTree = "<group>"; };
+		522AC3A523A7278E00F887BB /* RMPZoomTransitionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMPZoomTransitionDelegate.swift; sourceTree = "<group>"; };
+		522AC3A623A7278E00F887BB /* RMPZoomTransitionAnimating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMPZoomTransitionAnimating.swift; sourceTree = "<group>"; };
+		522AC3AA23A7279400F887BB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../kimjongchan-repos/kimjongchan/kimjongchan/VC/ViewController.swift"; sourceTree = "<group>"; };
+		522AC3AB23A7279400F887BB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		522AC3AE23A7279B00F887BB /* LoadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		522AC3AF23A7279B00F887BB /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		522AC3B023A7279B00F887BB /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		522AC3B123A7279B00F887BB /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		522AC3B223A7279B00F887BB /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		522AC3B323A7279B00F887BB /* ItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,38 @@
 		522AC38723A726FE00F887BB /* ProjectSeller */ = {
 			isa = PBXGroup;
 			children = (
+				522AC3BA23A727AA00F887BB /* Supporting Files */,
+				522AC3AB23A7279400F887BB /* DetailViewController.swift */,
+				522AC38C23A726FE00F887BB /* ViewController.swift */,
+				522AC3B023A7279B00F887BB /* ImageCell.swift */,
+				522AC3B223A7279B00F887BB /* ImageCell.xib */,
+				522AC3AF23A7279B00F887BB /* ItemCell.swift */,
+				522AC3B323A7279B00F887BB /* ItemCell.xib */,
+				522AC3AE23A7279B00F887BB /* LoadingCell.swift */,
+				522AC3B123A7279B00F887BB /* LoadingCell.xib */,
+				522AC39C23A7277F00F887BB /* API.swift */,
+				522AC39E23A7278400F887BB /* Extension+JSON.swift */,
+				522AC39F23A7278400F887BB /* Extension+UIColor.swift */,
+				522AC3A023A7278400F887BB /* Extension+UIImage.swift */,
+				522AC3A623A7278E00F887BB /* RMPZoomTransitionAnimating.swift */,
+				522AC3A423A7278E00F887BB /* RMPZoomTransitionAnimator.swift */,
+				522AC3A523A7278E00F887BB /* RMPZoomTransitionDelegate.swift */,
+				522AC3AA23A7279400F887BB /* ViewController.swift */,
+			);
+			path = ProjectSeller;
+			sourceTree = "<group>";
+		};
+		522AC3BA23A727AA00F887BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				522AC38823A726FE00F887BB /* AppDelegate.swift */,
 				522AC38A23A726FE00F887BB /* SceneDelegate.swift */,
-				522AC38C23A726FE00F887BB /* ViewController.swift */,
 				522AC38E23A726FE00F887BB /* Main.storyboard */,
 				522AC39123A726FF00F887BB /* Assets.xcassets */,
 				522AC39323A726FF00F887BB /* LaunchScreen.storyboard */,
 				522AC39623A726FF00F887BB /* Info.plist */,
 			);
-			path = ProjectSeller;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +180,9 @@
 			files = (
 				522AC39523A726FF00F887BB /* LaunchScreen.storyboard in Resources */,
 				522AC39223A726FF00F887BB /* Assets.xcassets in Resources */,
+				522AC3B923A7279C00F887BB /* ItemCell.xib in Resources */,
+				522AC3B723A7279C00F887BB /* LoadingCell.xib in Resources */,
+				522AC3B823A7279C00F887BB /* ImageCell.xib in Resources */,
 				522AC39023A726FE00F887BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +194,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522AC3A323A7278500F887BB /* Extension+UIImage.swift in Sources */,
 				522AC38D23A726FE00F887BB /* ViewController.swift in Sources */,
+				522AC3A123A7278500F887BB /* Extension+JSON.swift in Sources */,
+				522AC3AD23A7279400F887BB /* DetailViewController.swift in Sources */,
+				522AC3B523A7279C00F887BB /* ItemCell.swift in Sources */,
 				522AC38923A726FE00F887BB /* AppDelegate.swift in Sources */,
+				522AC3AC23A7279400F887BB /* ViewController.swift in Sources */,
+				522AC3A723A7278E00F887BB /* RMPZoomTransitionAnimator.swift in Sources */,
+				522AC3B423A7279C00F887BB /* LoadingCell.swift in Sources */,
+				522AC39D23A7277F00F887BB /* API.swift in Sources */,
+				522AC3A823A7278E00F887BB /* RMPZoomTransitionDelegate.swift in Sources */,
 				522AC38B23A726FE00F887BB /* SceneDelegate.swift in Sources */,
+				522AC3A923A7278E00F887BB /* RMPZoomTransitionAnimating.swift in Sources */,
+				522AC3A223A7278500F887BB /* Extension+UIColor.swift in Sources */,
+				522AC3B623A7279C00F887BB /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HBXK2UB5Z3;
-				INFOPLIST_FILE = ProjectSeller/Info.plist;
+				INFOPLIST_FILE = "ProjectSeller/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +372,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HBXK2UB5Z3;
-				INFOPLIST_FILE = ProjectSeller/Info.plist;
+				INFOPLIST_FILE = "ProjectSeller/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
