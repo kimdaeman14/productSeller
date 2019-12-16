@@ -38,7 +38,8 @@ class ListViewController: UIViewController {
     }
     
     private func initialDataConfigure(){
-        API.products(numberOfPageRequest).responseJSON { (response) in
+        API.products(numberOfPageRequest).responseJSON {[weak self] (response) in
+            guard let `self` = self else { return }
             switch response.result{
             case .success(let value):
                 let value = JSON(value)
@@ -115,8 +116,8 @@ extension ListViewController:UICollectionViewDelegate, UICollectionViewDataSourc
         
         fetchingMore = true
         collectionView.reloadSections(IndexSet(integer: 1))
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
-            
             // MARK: - Always add Data According to NumberOfDataShowing.
             let tempData = self.dataFromServer.filter{
                 let id = $0.1["id"].int ?? 0
@@ -128,7 +129,8 @@ extension ListViewController:UICollectionViewDelegate, UICollectionViewDataSourc
             
             
             // MARK: - Add Data From Server.
-            API.products(self.numberOfPageRequest).responseJSON { (response) in
+            API.products(self.numberOfPageRequest).responseJSON { [weak self](response) in
+                guard let `self` = self else { return }
                 switch response.result{
                 case .success(let value):
                     let value = JSON(value)
